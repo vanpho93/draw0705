@@ -10,7 +10,7 @@ function veHinh(n, fn, fnGetSoCot) {
     }
 }
 
-// veHinh(5, (i, j) => i >= j);
+veHinh(5, (i, j) => i >= j);
 // veHinh(5, (i, j, n) => i + j >= n + 1);
 // veHinh(5, (i, j) => i <= j);
 // veHinh(5, (i, j, n) => {
