@@ -47,9 +47,10 @@ function veHinh4(n) {
 }
 
 function veHinh5(n) {
+    const soCot = n;
     for(let i = 1; i <= n; i++) {
         let str = '';
-        for(let j = 1; j <= n; j++) {
+        for(let j = 1; j <= soCot; j++) {
             const soBuocChan = (n - 1) / 2;
             const trungTam = (n + 1) / 2;
             const soBuocDoc = Math.abs(trungTam - i);
